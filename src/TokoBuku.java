@@ -35,3 +35,8 @@ public class TokoBuku {
         // Baris tersebut sudah dihapus agar program bisa di-compile lagi.
     }
 }
+
+// Langkah 6: Buku b = new Buku("X", "Y", 1); menghasilkan error:
+// TokoBuku.java:16: error: Buku is abstract; cannot be instantiated
+// Penyebab: Buku adalah abstract class, jadi tidak bisa di-instansiasi langsung.
+// Baris tersebut sudah dihapus agar program bisa di-compile lagi.
